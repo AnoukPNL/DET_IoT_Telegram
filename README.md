@@ -47,7 +47,16 @@ Hoe je dit kan doen zal je verder in deze handleiding vinden!
 
 <h2> Stap 3: Voorbereiding Arduino IDE </h2>
 <ol>
+  <li> Ga naar Skech > Include Library > Manage Libraries </li>
+  <li> Zoek op 'ArduinoJson' (van Benoit Blanchon) en installeer deze. <br>
+        Let op: Gebruik de versie 6.15.2 van ArduinoJson.</li>
+  <li> Open een nieuwe sketch, en kopieer de code van deze site: <br>
+        https://raw.githubusercontent.com/RuiSantosdotme/Random-Nerd-Tutorials/master/Projects/ESP/ESP_Telegram/ESP_Telegram_Control_Outputs.ino <br>
+  en plak deze in je sketch. </li>
+  <li> Verander in de code je WiFi SSID en wachtwoord, maar vul ook je Bot Token en gebruikers ID in van Telegram. </li>
   <li>  </li>
+  <li>  </li>
+  
 </ol>
 
 
