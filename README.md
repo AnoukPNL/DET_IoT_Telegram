@@ -54,11 +54,14 @@ Hoe je dit kan doen zal je verder in deze handleiding vinden!
         https://raw.githubusercontent.com/RuiSantosdotme/Random-Nerd-Tutorials/master/Projects/ESP/ESP_Telegram/ESP_Telegram_Control_Outputs.ino <br>
   en plak deze in je sketch. </li>
   <li> Verander in de code je WiFi SSID en wachtwoord, maar vul ook je Bot Token en gebruikers ID in van Telegram. </li>
-  <li>  </li>
-  <li>  </li>
-  
+  <li> Hier ging ik de mist in, kijk bij de eerste 2 punten van foutmeldingen, hoe ik een paar errors heb opgelost. </li>
 </ol>
 
+<h2> Demonstratie: </h2>
+<ol>
+  <li> Mochten alle bovenstaande stappen zijn gelukt, dan kan je met '/start' de commando's aan zetten als je dit naar jouw IDBot stuurt. </li>
+  <li> Met '/led_on' zet je de LED aan, '/led_off' zet de LED uit en met '/state' kan je de momentele staat van de LED zien. </li>
+</ol>
 
 <h2> Foutmeldingen: </h2>
 <ol>
@@ -76,10 +79,7 @@ Daarbij keek ik gelijk weer naar mijn poorten, en hoewel hij er wel staat als aa
 </ol>
 
 
-<h2> : </h2>
-<ol>
-  <li>  </li>
-</ol>
+
 
 
 <h2> Bronnenlijst: </h2>
