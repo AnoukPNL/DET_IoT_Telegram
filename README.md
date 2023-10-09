@@ -3,13 +3,21 @@
 <h1> Hoe bestuur je LEDS met Telegram? </h1>
 Hoe je dit kan doen zal je verder in deze handleiding vinden!
 
+<h2>Inhoudsopgave</h2>
+  <li> Wat heb je nodig? </li>
+  <li> Stap 1: Voorbereiding Telegram </li>
+  <li> Stap 2: Telegram gebruiker ID </li>
+  <li> Stap 3: Voorbereiding Arduino IDE  </li>
+  <li>  </li>
+  <li>  </li>
+  <li>  </li>
+
+
 <h2> Wat heb je nodig? </h2>
 <ol>
   <li> Arduino IDE </li>
   <li> ESP8266 </li>
   <li> Telegram op je telefoon </li>
-  <li>  </li>
-  
 </ol>
 
 
@@ -27,7 +35,7 @@ Hoe je dit kan doen zal je verder in deze handleiding vinden!
   <li> In het bericht wat je zojuist hebt gekregen, bewaar de token, deze ga je later nodig hebben om te kunnen interacteren met de bot!  </li> 
 </ol>
 
-<h2> Telegram gebruiker ID: </h2>
+<h2> Stap 2: Telegram gebruiker ID </h2>
 <ol>
   <li> Iedereen kan gebruik maken van je bit, zolang die de gebruikersnaam heeft. Om ervoor te zorgen dat dit dit alleen berichten zullen worden van uw eigen telegram account, maken we een Telegram gebruikers ID aan.</li>
   <li> Ga naar je Telegram account en zoek voor 'IDBot'. En klik op start. </li>
@@ -37,7 +45,7 @@ Hoe je dit kan doen zal je verder in deze handleiding vinden!
 </ol>
 
 
-<h2> Voorbereiding Arduino IDE: </h2>
+<h2> Stap 3: Voorbereiding Arduino IDE </h2>
 <ol>
   <li>  </li>
 </ol>
