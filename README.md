@@ -8,9 +8,8 @@ Hoe je dit kan doen zal je verder in deze handleiding vinden!
   <li> Stap 1: Voorbereiding Telegram </li>
   <li> Stap 2: Telegram gebruiker ID </li>
   <li> Stap 3: Voorbereiding Arduino IDE  </li>
-  <li>  </li>
-  <li>  </li>
-  <li>  </li>
+  <li> Stap 4: Demonstratie </li>
+  <li> Foutmeldingen </li>
 
 
 <h2> Wat heb je nodig? </h2>
@@ -61,6 +60,8 @@ Hoe je dit kan doen zal je verder in deze handleiding vinden!
 <ol>
   <li> Mochten alle bovenstaande stappen zijn gelukt, dan kan je met '/start' de commando's aan zetten als je dit naar jouw IDBot stuurt. </li>
   <li> Met '/led_on' zet je de LED aan, '/led_off' zet de LED uit en met '/state' kan je de momentele staat van de LED zien. </li>
+  <li> Jammer genoeg werkt het voor mij niet in een keer... Mocht het jou ook niet gelukt zijn omdat de bot iets zoals onderstaande afbeelding heeft gezegd, kijk bij foutmelding 3.
+  </li>
 </ol>
 
 <h2> Foutmeldingen: </h2>
@@ -74,8 +75,9 @@ Toen ik in opzoek ging naar wat ermee was, begon ik in de code te kijken. Hier z
    Wat lijkt alsof hij de poort niet kan vinden. Daarom heb ik de applicatie opnieuw opgestart. <br>
 <img width="734" alt="Scherm­afbeelding 2023-10-09 om 20 15 26" src="https://github.com/AnoukPNL/DET_IoT_Telegram/assets/112867115/6e1076c7-adb3-4a66-afce-2d99d23538eb"> <br>
 Daarbij keek ik gelijk weer naar mijn poorten, en hoewel hij er wel staat als aangewezen poort, staat hij niet tussen de andere poorten. Daarom haalde ik de Arduino uit en weer in mijn laptop en uploadde ik hem weer opnieuw. Met dit keer weer een upload completed scherm, zonder foutmeldingen in het rood!
-
    </li>
+  <li> De error in Telegram lijkt aan te geven dat de code in Arduino niet is gelinkt aan de Telegram bot. Na wat gegoogled te hebben en ben ik erachter gekomen dat je in de chat van 'fatherbot' op de link moet drukken van je chat bot, om zo commando's te kunnen sturen. De commando's moeten niet naar de IDBot worden gestuurd. </li>
+   
 </ol>
 
 
@@ -86,5 +88,7 @@ Daarbij keek ik gelijk weer naar mijn poorten, en hoewel hij er wel staat als aa
 <ol>
   <li> https://randomnerdtutorials.com/telegram-control-esp32-esp8266-nodemcu-outputs/ </li>
   <li> https://www.instructables.com/Telegram-Bot-With-ESP8266/ </li>
-  <li>  </li>
+  <li> https://forum.arduino.cc/t/universal-arduino-telegram-bot-doesnt-work/1009283/8 </li>
+  <li> https://experienceleague.adobe.com/docs/contributor/contributor-guide/writing-essentials/markdown.html?lang=nl </li>
+
 </ol>
