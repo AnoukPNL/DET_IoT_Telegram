@@ -25,8 +25,12 @@ Hoe je dit kan doen zal je verder in deze handleiding vinden!
 <ol>
   <li> Ga naar de appstore / google play en download Telegram. </li>
   <li> Klik op het vegrootglas rechts bovenin en zoek naar 'botfather'. </li>
+  ![IMG_6111](https://github.com/AnoukPNL/DET_IoT_Telegram/assets/112867115/2110e09a-b42e-423c-958f-3c982e212e5e)<br>
   <li> Klik alsvolgt op start. </li>
-  <li> Type in '/newbot'. </li>
+  ![IMG_6112](https://github.com/AnoukPNL/DET_IoT_Telegram/assets/112867115/069a5e50-3926-4473-9aaf-6beaecb78972)<br>
+  <li> Type in '/newbot'. </li> <br>
+  ![IMG_6113](https://github.com/AnoukPNL/DET_IoT_Telegram/assets/112867115/b9f1213e-f4f3-4e6a-a064-32d2579bd141)<br>
+
   <li> Nu zal de botfather je vragen om de bot een naam en gebruikersnaam te geven.<br>
        Tip 1: De gebruikersnaam moet eindigen met 'bot'. Dus bijvoorbeeld BobBot of Bob_bot.<br>
        Tip 2: Ik dacht voor een simpele naam te gaan, maar nou blijkt deze gebruikersnaam al te bestaan. Zorg dat je een unieke naam kiest voor minder problemen. </li>
@@ -38,6 +42,8 @@ Hoe je dit kan doen zal je verder in deze handleiding vinden!
 <ol>
   <li> Iedereen kan gebruik maken van je bit, zolang die de gebruikersnaam heeft. Om ervoor te zorgen dat dit dit alleen berichten zullen worden van uw eigen telegram account, maken we een Telegram gebruikers ID aan.</li>
   <li> Ga naar je Telegram account en zoek voor 'IDBot'. En klik op start. </li>
+  ![IMG_6116](https://github.com/AnoukPNL/DET_IoT_Telegram/assets/112867115/b6c8a4e0-ff4e-42c0-b729-b5325b89e662)
+
   <li> Begin een gesprek met de bot en type '/getid'. </li>
   <li> Als het goed is heeft de IDBot je nu een gebruikers ID toegestuurd. <br>
     Belangrijk: Bewaar dit ID, deze ga je later nodig hebben!  </li>
@@ -58,7 +64,10 @@ Hoe je dit kan doen zal je verder in deze handleiding vinden!
 
 <h2> Demonstratie: </h2>
 <ol>
-  <li> Mochten alle bovenstaande stappen zijn gelukt, dan kan je met '/start' de commando's aan zetten als je dit naar jouw IDBot stuurt. </li>
+  <li> Mochten alle bovenstaande stappen zijn gelukt, dan kan je met '/start' de commando's aan zetten als je dit naar jouw IDBot stuurt. </li> <br>
+   ![IMG_6117](https://github.com/AnoukPNL/DET_IoT_Telegram/assets/112867115/40aa7d4d-fcbe-428b-80f2-68ab1ee4fb8c)<br>
+  ![IMG_6118](https://github.com/AnoukPNL/DET_IoT_Telegram/assets/112867115/52b54a09-5d02-4fb1-9564-0f4dd68c5fd2)<br>
+
   <li> Met '/led_on' zet je de LED aan, '/led_off' zet de LED uit en met '/state' kan je de momentele staat van de LED zien. </li>
   <li> Jammer genoeg werkt het voor mij niet in een keer... Mocht het jou ook niet gelukt zijn omdat de bot iets zoals onderstaande afbeelding heeft gezegd, kijk bij foutmelding 3.
   </li>
@@ -78,6 +87,8 @@ Daarbij keek ik gelijk weer naar mijn poorten, en hoewel hij er wel staat als aa
    </li>
   <li> De error in Telegram lijkt aan te geven dat de code in Arduino niet is gelinkt aan de Telegram bot. Na wat gegoogled te hebben en ben ik erachter gekomen dat je in de chat van 'fatherbot' op de link moet drukken van je chat bot, om zo commando's te kunnen sturen. De commando's moeten niet naar de IDBot worden gestuurd. </li>
    
+
+
 </ol>
 
 
